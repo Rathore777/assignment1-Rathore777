@@ -1,5 +1,5 @@
 /*
- * @author Divyansh Bhardwaj
+ * @author Utkarsh Rathor
  * @version 1.0
  * */
 package main;
@@ -11,7 +11,8 @@ public class Gravity {
 	// TODO 1: Create the main method
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		double g = 9.8;
+
+        double g = 9.8;
 		double distance = 0.0;
 		double speed = 0.0;
 		double time = scanner.nextDouble();
